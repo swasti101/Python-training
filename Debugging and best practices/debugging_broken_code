@@ -1,0 +1,9 @@
+def calculate_tax(amount, rate):
+    #wrong formula for tax
+    tax = amount * rate / 100  
+
+    #debugging using print statement
+    print(f"Amount: {amount}, Rate: {rate}, Tax: {tax}") 
+    return tax
+
+print(calculate_tax(1000, 5))  # Expected: 50
