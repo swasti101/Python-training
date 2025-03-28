@@ -7,6 +7,8 @@ def is_prime(n):
     return True
 
 
+
+#using unittest
 import unittest
 
 class TestPrimeCheck(unittest.TestCase):
@@ -18,5 +20,9 @@ class TestPrimeCheck(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+#using pytest
+
 
 

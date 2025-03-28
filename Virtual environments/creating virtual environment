@@ -1,0 +1,11 @@
+//Running these command will create a virtual environment : 
+ -> python -m venv myenv
+ -> source myenv/bin/activate
+
+ //install the request package
+ -> pip install requests
+
+//deactivating environment
+-> deactivate
+
+
